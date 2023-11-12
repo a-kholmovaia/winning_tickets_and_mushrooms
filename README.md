@@ -6,7 +6,7 @@ The algorithm can be described as follows:
 - randomly initialise a network $W_i$
 - train the network for $n$ epochs
 - prune p% of the trained weights with the smallest magnitude and create a mask m
-- reinitialise unpruned weights with $W_h$ ('rewind' the weights)
+- reinitialise unpruned weights with $W_i$ ('rewind' the weights)
 - repeat the training, pruning and reinitialising steps for k times
 - get the winning ticket
 ### Key takeaways from the paper
